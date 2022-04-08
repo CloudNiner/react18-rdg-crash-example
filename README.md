@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+#  React 18 ReactDataGrid Crash Demo
+
+This repo demonstrates ReactDataGrid crashing when the new React 18 client rendering API is enabled.
+
+The changes made from a clean Create React App are:
+
+- Bump `@types/react-dom` to 18.0.0
+- Replace contents of App.tsx with the ReactDataGrid [Getting Started example](https://reactdatagrid.io/docs/getting-started#using-the-component)
+- Enable the new client rendering API in `index.tsx` as described [here](https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html#updates-to-client-rendering-apis)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
